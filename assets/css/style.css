@@ -33,9 +33,6 @@
   margin-bottom: 0px;
 }
 
-/* .box:first-child {
-    padding: 10px 10px 0 10px;
-} */
 .box:not(:first-child) {
   padding: 0 10px;
 }
@@ -70,16 +67,8 @@
 }
 
 .element.folder {
-  background: -webkit-linear-gradient(
-    90deg,
-    #354e69,
-    #000000
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    90deg,
-    #354e69,
-    #000000
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: -webkit-linear-gradient(90deg, #354e69, #000000); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(90deg, #354e69, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .element svg {
@@ -95,6 +84,7 @@
 .element:hover {
   opacity: 0.5;
 }
+
 @media (max-width: 1000px) {
   .element:hover {
     opacity: initial;
@@ -149,11 +139,7 @@
   flex-direction: column;
   padding: 5px;
   border-radius: 7px;
-  background: radial-gradient(
-    circle,
-    rgba(238, 174, 202, 0.192) 0%,
-    rgba(148, 188, 233, 0.178) 100%
-  );
+  background: radial-gradient(circle, rgba(238, 174, 202, 0.192) 0%, rgba(148, 188, 233, 0.178) 100%);
 }
 
 .hashtags span,
