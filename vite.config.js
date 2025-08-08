@@ -2,6 +2,7 @@ import { defineConfig } from 'vite';
 import path from 'path';
 
 export default defineConfig({
+  base: '/bkmrks/', // базовый путь для GitHub Pages
   root: '.', // корень — твой проектный корень
   build: {
     outDir: 'dist', // папка для сборки
@@ -26,5 +27,6 @@ export default defineConfig({
   },
   server: {
     port: 3000, // или любой удобный порт
+    open: true, // автооткрытие браузера
   },
 });

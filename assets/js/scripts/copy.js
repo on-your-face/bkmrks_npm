@@ -5,6 +5,10 @@ export function initCopy() {
       const key = this.getAttribute('data-href');
       if (key) {
         const data = {
+          npm_run_dev: 'npm run dev',
+          npm_run_preview: 'npm run preview -g npm@latest',
+          npm_run_build: 'npm run build -g npm@latest',
+          npm_run_deploy: 'npm run deploy -g npm@latest',
           nodejs_install_lastv_npm: 'npm install -g npm@latest',
           nodejs_vite_indir: 'npm create vite@latest',
           nodejs_npm_indir: 'npm init',
