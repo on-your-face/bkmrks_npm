@@ -1,5 +1,5 @@
 {
-  "name": "bkmrks_npm",
+  "name": "bkmrks",
   "version": "1.0.0",
   "description": "",
   "main": "script.js",
@@ -7,6 +7,8 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "test": "echo \"Error: no test specified\" && exit 1",
     "format": "prettier --write ."
   },
@@ -23,6 +25,7 @@
   },
   "homepage": "https://github.com/on-your-face/bkmrks_npm#readme",
   "devDependencies": {
+    "gh-pages": "^6.3.0",
     "prettier": "^3.6.2",
     "vite": "^7.1.1"
   }
