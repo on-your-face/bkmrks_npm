@@ -1,5 +1,6 @@
 import { defineConfig } from 'vite';
 import path from 'path';
+import htmlInject from 'vite-plugin-html-inject';
 
 export default defineConfig({
   base: '/bkmrks/', // базовый путь для GitHub Pages
@@ -29,4 +30,5 @@ export default defineConfig({
     port: 3000, // или любой удобный порт
     open: true, // автооткрытие браузера
   },
+  plugins: [htmlInject()],
 });
