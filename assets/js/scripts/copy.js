@@ -6,6 +6,7 @@ export function initCopy() {
             if (key) {
                 const data = {
                     npm_plug_html: 'npm install vite-plugin-html-inject --save-dev',
+                    npm_install: 'npm install',
                     npm_plug_svgo: 'npm install -D svgo',
                     npm_run_dev: 'npm run dev',
                     npm_run_preview: 'npm run preview',
