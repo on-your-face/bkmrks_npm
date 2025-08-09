@@ -5,6 +5,8 @@ export function initCopy() {
       const key = this.getAttribute('data-href');
       if (key) {
         const data = {
+          npm_plug_html: 'npm install vite-plugin-html-inject --save-dev',
+          npm_plug_svgo: 'npm install -D svgo',
           npm_run_dev: 'npm run dev',
           npm_run_preview: 'npm run preview',
           npm_run_build: 'npm run build',
