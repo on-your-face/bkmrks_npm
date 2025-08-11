@@ -14,9 +14,12 @@
     width: 100vw;
 }
 
-#main .box,
-#software .box {
-    margin-bottom: 0px;
+#main,
+#software,
+#gyv {
+    .box {
+        margin-bottom: 0;
+    }
 }
 
 .box {
