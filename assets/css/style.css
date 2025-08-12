@@ -1,6 +1,7 @@
-@import 'reset.css';
-@import 'fonts.css';
-@import 'base.css';
+@import './reset.css';
+@import './fonts.css';
+@import './base.css';
+@import './modal_gyv.css';
 
 .container__wrapper {
     padding: 15px 0px;
@@ -15,8 +16,7 @@
 }
 
 #main,
-#software,
-#gyv {
+#software {
     .box {
         margin-bottom: 0;
     }
