@@ -1,0 +1,46 @@
+.element {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 7px;
+    background: linear-gradient(90deg, #697f884b, #685f5f3f);
+    border-radius: 7px;
+    transition: 0.5s;
+    opacity: 1;
+    @media (max-width: 800px) {
+        width: 50px;
+        height: 50px;
+    }
+}
+
+.element {
+    cursor: pointer;
+}
+
+.element {
+    &:hover {
+        opacity: 0.5;
+    }
+    background: linear-gradient(90deg, #697f884b, #685f5f3f);
+}
+
+.element.folder {
+    background: -webkit-linear-gradient(90deg, #354e69, #000000); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(90deg, #354e69, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.element svg {
+    width: 100%;
+    height: auto;
+}
+
+.element img {
+    width: 100%;
+    height: auto;
+}
+
+// .element:hover {
+
+// }

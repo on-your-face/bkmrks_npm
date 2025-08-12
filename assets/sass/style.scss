@@ -1,8 +1,3 @@
-@import './reset.css';
-@import './fonts.css';
-@import './base.css';
-@import './modal_gyv.css';
-
 .container__wrapper {
     padding: 15px 0px;
     min-height: 100vh;
@@ -48,45 +43,7 @@
     width: auto;
 }
 
-.element {
-    width: 60px;
-    height: 60px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 7px;
-    background: linear-gradient(90deg, #697f884b, #685f5f3f);
-    border-radius: 7px;
-    transition: 0.5s;
-    opacity: 1;
-}
 
-.element {
-    cursor: pointer;
-}
-
-.element {
-    background: linear-gradient(90deg, #697f884b, #685f5f3f);
-}
-
-.element.folder {
-    background: -webkit-linear-gradient(90deg, #354e69, #000000); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(90deg, #354e69, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
-
-.element svg {
-    width: 100%;
-    height: auto;
-}
-
-.element img {
-    width: 100%;
-    height: auto;
-}
-
-.element:hover {
-    opacity: 0.5;
-}
 
 @media (max-width: 1000px) {
     .element:hover {
@@ -272,10 +229,6 @@ a {
     margin: 10px 0;
 }
 @media (max-width: 800px) {
-    .element {
-        width: 55px;
-        height: 55px;
-    }
 
     #main-page {
         align-items: normal;
