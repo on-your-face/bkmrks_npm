@@ -1,9 +1,14 @@
 import './sass/reset.scss';
-import './sass/main.scss';
+import './sass/base.scss';
 import './sass/fonts.scss';
+import './sass/main.scss';
+
+
+
+
 import './sass/style.scss';
-import './sass/element.scss';
 import './sass/modal_gyv.scss';
+import './sass/divider.scss';
 import { initModal } from './js/modal.js';
 import { initNewTab } from './js/new_tab.js';
 import { initCopy } from './js/copy.js';
