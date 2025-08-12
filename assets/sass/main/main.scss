@@ -1,56 +1,55 @@
 .container {
-    padding: 7px;
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    gap: 7px;
+   align-items: center;
+   display: flex;
+   flex-direction: column;
+   gap: 7px;
+   justify-content: center;
+   min-height: 100vh;
+   padding: 7px;
 }
 
 .box {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 7px;
-    flex-wrap: wrap;
+   align-items: center;
+   display: flex;
+   flex-wrap: wrap;
+   gap: 7px;
+   justify-content: center;
 }
 
 .element {
-    width: 60px;
-    height: 60px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 7px;
-    background: linear-gradient(90deg, #697f884b, #685f5f3f);
-    border-radius: 7px;
-    transition: 0.5s;
-    opacity: 1;
-    cursor: pointer;
+   align-items: center;
+   background: linear-gradient(90deg, #697f884b, #685f5f3f);
+   border-radius: 7px;
+   cursor: pointer;
+   display: flex;
+   height: 60px;
+   justify-content: center;
+   opacity: 1;
+   padding: 7px;
+   transition: 0.5s;
+   width: 60px;
 
-    &:hover {
-        opacity: 0.5;
-    }
+   &:hover {
+      opacity: 0.5;
+   }
 
-    & svg {
-        width: 100%;
-        height: auto;
-    }
+   & svg {
+      height: auto;
+      width: 100%;
+   }
 
-    & img {
-        width: 100%;
-        height: auto;
-    }
+   & img {
+      height: auto;
+      width: 100%;
+   }
 
-    &.folder {
-        background: -webkit-linear-gradient(90deg, #354e69, #000000);
-        background: linear-gradient(90deg, #354e69, #000000);
-    }
+   &.folder {
+      background: linear-gradient(90deg, #354e69, #000);
+   }
 
-    @media (max-width: 1000px) {
-        &:hover {
-            opacity: initial;
-        }
-    }
+   @media (max-width: 1000px) {
+      &:hover {
+         opacity: initial;
+      }
+   }
 }

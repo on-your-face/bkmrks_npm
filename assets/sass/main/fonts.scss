@@ -1,16 +1,17 @@
 @font-face {
-    font-family: 'inter';
-    src:
-        url('../../fonts/inter.woff') format('woff'),
-        url('../../fonts/inter.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
+   font-family: inter;
+   font-style: normal;
+   font-weight: normal;
+   src:
+      url('../../fonts/inter.woff') format('woff'),
+      url('../../fonts/inter.woff2') format('woff2');
 }
+
 @font-face {
-    font-family: 'opensans';
-    src:
-        url('../../fonts/opensans.woff') format('woff'),
-        url('../../fonts/opensans.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
+   font-family: opensans;
+   font-style: normal;
+   font-weight: normal;
+   src:
+      url('../../fonts/opensans.woff') format('woff'),
+      url('../../fonts/opensans.woff2') format('woff2');
 }
