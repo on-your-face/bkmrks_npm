@@ -1,31 +1,5 @@
 
 
-// .box {
-//     display: flex;
-//     justify-content: center;
-//     gap: 7px 30px;
-//     flex-wrap: wrap;
-//     padding: 0 15px;
-//     margin-bottom: 7px;
-//     width: auto;
-// }
-
-// .box:last-child {
-//     margin-bottom: 0px;
-// }
-
-// .box:not(:first-child) {
-//     padding: 0 10px;
-// }
-
-// .box__inner {
-//     display: flex;
-//     justify-content: center;
-//     flex-wrap: wrap;
-//     gap: 7px;
-//     width: auto;
-// }
-
 @media (max-width: 1000px) {
     .anchor:hover {
         opacity: initial;
@@ -83,7 +57,7 @@
 a {
     color: white;
     font-size: 18px;
-    font-family: 'OpenSans';
+    font-family: 'opensans';
 }
 
 .hashtags span .ahk_autorun_color {
