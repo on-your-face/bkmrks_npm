@@ -4,6 +4,7 @@ import './sass/main/base.scss';
 import './sass/main/fonts.scss';
 import './sass/main/main.scss';
 import './sass/style.scss';
+import './sass/mobile_comfort.scss';
 
 import './sass/other/divider.scss';
 // scripts
