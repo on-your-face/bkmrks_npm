@@ -4,7 +4,7 @@ import htmlInject from 'vite-plugin-html-inject';
 
 export default defineConfig({
    base: '/bkmrks/', // базовый путь для GitHub Pages
-   root: '.', // корень — твой проектный корень
+   root: '.', // корень проекта
    build: {
       outDir: 'dist', // папка для сборки
       emptyOutDir: true,
@@ -27,7 +27,7 @@ export default defineConfig({
       },
    },
    server: {
-      port: 3000, // или любой удобный порт
+      port: 3000, // порт dev-сервера
       open: true, // автооткрытие браузера
    },
    plugins: [htmlInject()],
